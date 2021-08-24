@@ -1,0 +1,54 @@
+*::after,
+*::before {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+img {
+  display: block;
+}
+
+h1,
+h2,
+h4,
+p,
+a {
+  margin-left: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+input::placeholder {
+  font-family: "Nunito", sans-serif;
+}
+
+button {
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  border: none;
+}

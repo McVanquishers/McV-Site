@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact page for the official Ecto website"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/contact.css" />
+    <script
+      src="https://kit.fontawesome.com/5427df194c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Ecto | Contact</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://ecto.netlify.app/",
+        "@type": "Community",
+        "name": "Ecto",
+        "author": {
+          "@type": "People",
+          "name": "WarBaddy, Opalised"
+        },
+        "datePublished": "2020-12-26",
+        "description": "This is the official Ecto contact page"
+      }
+    </script>
+  </head>
+  <body class="bg-light">
+    <div class="container">
+      <div class="header">
+        <div class="content">
+          <div class="logo">
+            <img src="images/ecto.png" alt="ecto-logo" />
+          </div>
+          <div class="links">
+            <a rel="noopener" href="index.html">Home</a>
+            <button id="lightMode">
+              <i class="fas fa-moon" id="lightModeIcon"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="showcase">
+        <div class="text">
+          <h1>Contact</h1>
+          <p>
+            In order to contact us, all you have to do is to fill out the form
+            below. All you to provide is your email address and your message.
+          </p>
+        </div>
+      </div>
+
+      <div class="contact-us">
+        <div class="content">
+          <div class="form">
+            <div class="image">
+              <img src="images/phone.svg" alt="support" />
+            </div>
+            <div class="box">
+              <form action="POST" data-netlify="true">
+                <p>
+                  <label>Email Address</label>
+                  <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    placeholder="Email Address"
+                  />
+                </p>
+                <p>
+                  <label>Your Message</label>
+                  <textarea
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </p>
+                <p>
+                  <button id="submit">Submit</button>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="content">
+          <div class="col">
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://discord.gg/279Y7VjKh7"
+              ><img src="images/discord.svg" alt="discord"
+            /></a>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://www.youtube.com/channel/UCfUEJQSQarPmdSa5xR2yPcQ"
+              ><img src="images/youtube.svg" alt="youtube"
+            /></a>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://www.twitch.tv/ectoplasmalive"
+              ><img src="images/twitch.svg" alt="twitch"
+            /></a>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://www.reddit.com/r/Ectoplasma/"
+              ><img src="images/reddit.svg" alt="reddit"
+            /></a>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://jigsaw.w3.org/css-validator/check/referer"
+            >
+              <img
+                src="https://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!"
+              />
+            </a>
+          </div>
+          <div class="copyright">
+            <label>&copy; Website made by WarBaddy and Opalised</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/contact.js"></script>
+  </body>
+</html>
